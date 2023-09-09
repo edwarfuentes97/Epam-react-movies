@@ -1,24 +1,34 @@
-import logo from './logo.svg';
 import './App.css';
+import Counter from "./components/counter/counter";
+import {SearchForm} from "./components/searchForm/searchForm";
+import {GenreSelect} from "./components/GenreSelect/GenreSelect";
+
+const handleButtonClick = () => {
+  alert('Click button callback');
+};
+
+const onSelectedGenre = (genre) => {
+  alert('Se cambio el genero a ' , genre)
+}
+
+const genders = [
+    'ALL',
+    'DOCUMENTARY',
+    'COMEDY',
+    'HORROR',
+    'CRIME',
+    'SUSPENSE'
+]
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Counter initialValue={10}></Counter>
+      <SearchForm onSearch={handleButtonClick} initialValue={'InterStellar'}></SearchForm>
+      <GenreSelect genders={genders}
+                   current={genders[0]}
+                   selectedGenreCallback={onSelectedGenre}></GenreSelect>
+    </>
   );
 }
 
