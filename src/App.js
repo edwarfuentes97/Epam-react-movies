@@ -26,7 +26,7 @@ function App() {
       <Counter initialValue={10}></Counter>
       <SearchForm onSearch={handleButtonClick} initialValue={'InterStellar'}></SearchForm>
       <GenreSelect genres={genres}
-                   current={genres[0]}
+                   current={genres[1]}
                    selectedGenreCallback={onSelectedGenre}></GenreSelect>
     </>
   );

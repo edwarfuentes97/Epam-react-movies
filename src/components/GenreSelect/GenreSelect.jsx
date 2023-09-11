@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './GenreSelect.css'; // Importa el archivo CSS
 
-export function GenreSelect({ genders , current, selectedGenreCallback }) {
+export function GenreSelect({ genres , current, selectedGenreCallback }) {
   const [selectedGenre, setSelectedGenre] = useState(current);
 
   const handleGenreClick = (genre) => {
@@ -9,19 +9,21 @@ export function GenreSelect({ genders , current, selectedGenreCallback }) {
     setSelectedGenre(genre);
   };
 
+  console.log(genres)
+  console.log(current)
   return (
       <div className="genre-general-container">
         <div className={'genre-container'}>
           <ul className="genre-list">
-            {genders.map((gender) => (
+            { genres && genres.map((sGenres) => (
                 <li
-                    key={gender}
-                    className={`genre-item ${selectedGenre === gender ? 'genre-item-selected border-red' : 'border-white'}`}
-                    onClick={() => handleGenreClick(gender)}
+                    key={sGenres}
+                    className={`genre-item ${selectedGenre === sGenres ? 'genre-item-selected border-red' : 'border-white'}`}
+                    onClick={() => handleGenreClick(sGenres)}
                 >
-                  {gender}
+                  {sGenres}
                 </li>
-            ))}
+            )) }
           </ul>
         </div>
 
