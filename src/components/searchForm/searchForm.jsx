@@ -16,6 +16,12 @@ export const SearchForm = ({initialValue, onSearch}) => {
     setInputValue(e.target.value);
   };
 
+  const handleKeyPress = (e) => {
+    if (e.key === 'Enter'){
+      onSearch(inputValue)
+    }
+  };
+
   const handleSearch = () => {
     onSearch(inputValue);
   };
@@ -23,8 +29,8 @@ export const SearchForm = ({initialValue, onSearch}) => {
   return (
       <div className="container">
         <div className="search-container">
-          <input className="search-input" type="text" placeholder="Buscar..." value={inputValue}
-                 onChange={handleInputChange}/>
+          <input className="search-input" type="text" placeholder="Search..." value={inputValue}
+                 onChange={handleInputChange} onKeyPress={handleKeyPress}/>
           <button className="search-button" onClick={handleSearch}>SEARCH</button>
         </div>
         <button className="add-button" onClick={()=>handleClickAddMovie()}>+ ADD MOVIE</button>
