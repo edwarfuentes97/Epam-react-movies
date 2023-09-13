@@ -9,8 +9,6 @@ export function GenreSelect({ genres , current, selectedGenreCallback }) {
     setSelectedGenre(genre);
   };
 
-  console.log(genres)
-  console.log(current)
   return (
       <div className="genre-general-container">
         <div className={'genre-container'}>
