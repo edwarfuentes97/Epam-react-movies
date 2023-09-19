@@ -1,7 +1,7 @@
 
 import * as React from 'react';
-import './seaarchForm.css'
-import {useState} from "react";
+import './searchForm.css'
+import { useState } from "react";
 
 
 const handleClickAddMovie = () => {
@@ -9,7 +9,7 @@ const handleClickAddMovie = () => {
 }
 
 
-export const SearchForm = ({initialValue, onSearch}) => {
+export const SearchForm = ({ initialValue, onSearch }) => {
   const [inputValue, setInputValue] = useState(initialValue);
 
   const handleInputChange = (e) => {
@@ -17,7 +17,7 @@ export const SearchForm = ({initialValue, onSearch}) => {
   };
 
   const handleKeyPress = (e) => {
-    if (e.key === 'Enter'){
+    if (e.key === 'Enter') {
       onSearch(inputValue)
     }
   };
@@ -27,13 +27,13 @@ export const SearchForm = ({initialValue, onSearch}) => {
   };
 
   return (
-      <div className="container">
-        <div className="search-container">
-          <input className="search-input" type="text" placeholder="Search..." value={inputValue}
-                 onChange={handleInputChange} onKeyPress={handleKeyPress}/>
-          <button className="search-button" onClick={handleSearch}>SEARCH</button>
-        </div>
-        <button className="add-button" onClick={()=>handleClickAddMovie()}>+ ADD MOVIE</button>
+    <div className="container">
+      <div className="search-container">
+        <input className="search-input" type="text" placeholder="Search..." value={inputValue}
+          onChange={handleInputChange} onKeyPress={handleKeyPress} />
+        <button className="search-button" onClick={handleSearch}>SEARCH</button>
       </div>
+      <button className="add-button" onClick={() => handleClickAddMovie()}>+ ADD MOVIE</button>
+    </div>
   );
 };

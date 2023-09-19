@@ -1,5 +1,3 @@
-
-
 describe('Counter Component', () => {
   it('increments and decrements the counter correctly', () => {
     cy.visit('http://localhost:3000');
