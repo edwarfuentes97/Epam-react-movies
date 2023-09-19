@@ -69,7 +69,7 @@ function Counter({ initialValue }) {
   const title = React.createElement('h2', {key: 'title'} , 'Counter component');
 
   const counterValue = React.createElement('div',
-      { key: 'valueDiv'},
+      { key: 'valueDiv' , id:'counterValue'},
       `Value: ${value}`
   );
 

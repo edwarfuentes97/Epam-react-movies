@@ -9,10 +9,6 @@
     flex-direction: row;
 }
 
-.genre-container{
-
-}
-
 .genre-list {
     list-style-type: none;
     display: flex;

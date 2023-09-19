@@ -11,7 +11,7 @@ const onSelectedGenre = (genre) => {
   alert('Se cambio el genero a ' , genre)
 }
 
-const genders = [
+const genres = [
     'ALL',
     'DOCUMENTARY',
     'COMEDY',
@@ -25,8 +25,8 @@ function App() {
     <>
       <Counter initialValue={10}></Counter>
       <SearchForm onSearch={handleButtonClick} initialValue={'InterStellar'}></SearchForm>
-      <GenreSelect genders={genders}
-                   current={genders[0]}
+      <GenreSelect genres={genres}
+                   current={genres[1]}
                    selectedGenreCallback={onSelectedGenre}></GenreSelect>
     </>
   );

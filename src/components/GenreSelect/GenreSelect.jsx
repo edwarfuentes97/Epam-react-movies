@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './GenreSelect.css'; // Importa el archivo CSS
 
-export function GenreSelect({ genders , current, selectedGenreCallback }) {
+export function GenreSelect({ genres , current, selectedGenreCallback }) {
   const [selectedGenre, setSelectedGenre] = useState(current);
 
   const handleGenreClick = (genre) => {
@@ -10,36 +10,31 @@ export function GenreSelect({ genders , current, selectedGenreCallback }) {
   };
 
   return (
-      <>
-        <div className="genre-general-container">
-          <div className={'genre-container'}>
-            <ul className="genre-list">
-              {genders.map((gender) => (
-                  <>
-                    <li
-                        key={gender}
-                        className={`genre-item ${selectedGenre === gender ? 'genre-item-selected border-red' : 'border-white'}`}
-                        onClick={() => handleGenreClick(gender)}
-                    >
-                      {gender}
-                    </li>
-                  </>
-              ))}
-            </ul>
-          </div>
-
-          <div className="genre-sortby">
-            <span className={'span-sortby'}>SORT BY</span>
-            <select name="sortby" id="sortby" className={'select-sorby'}>
-              <option key={'release_date'} value="release_date">RELEASE DATE</option>
-              <option key={'rating'} value="rating">RATING</option>
-              <option key={'last_updated'} value="last_updated">LAST UPDATED</option>
-              <option key={'other'} value="other">other</option>
-            </select>
-
-          </div>
-
+      <div className="genre-general-container">
+        <div className={'genre-container'}>
+          <ul className="genre-list">
+            { genres && genres.map((sGenres) => (
+                <li
+                    key={sGenres}
+                    className={`genre-item ${selectedGenre === sGenres ? 'genre-item-selected border-red' : 'border-white'}`}
+                    onClick={() => handleGenreClick(sGenres)}
+                >
+                  {sGenres}
+                </li>
+            )) }
+          </ul>
         </div>
-      </>
+
+        <div className="genre-sortby">
+          <span className={'span-sortby'}>SORT BY</span>
+          <select name="sortby" id="sortby" className={'select-sorby'}>
+            <option key={'release_date'} value="release_date">RELEASE DATE</option>
+            <option key={'rating'} value="rating">RATING</option>
+            <option key={'last_updated'} value="last_updated">LAST UPDATED</option>
+            <option key={'other'} value="other">other</option>
+          </select>
+        </div>
+      </div>
+
   );
 }
