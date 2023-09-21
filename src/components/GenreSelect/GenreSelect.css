@@ -1,6 +1,6 @@
 
 .genre-general-container{
-    background: #232323;
+    background: #060d1df2;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -21,11 +21,11 @@
     cursor: pointer;
     width: 120px;
     text-align: center;
-    color: #FFF;
+    color: #868686;
     font-family: Montserrat, serif;
-    font-size: 1rem;
+    font-size: 0.9em;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
 }
