@@ -2,18 +2,37 @@
   text-align: center;
 }
 
+.app-container {
+  padding: 0 8% 0;
+}
+
+.mt-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4em;
+  background-color: #111727;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 
 }
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
 body {
-  background-color: #dedede;
+  background-color: #3f3f3f91;
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }

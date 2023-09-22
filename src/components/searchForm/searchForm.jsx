@@ -27,13 +27,13 @@ export const SearchForm = ({ initialValue, onSearch }) => {
   };
 
   return (
-    <div className="container">
-      <div className="search-container">
-        <input className="search-input" type="text" placeholder="Search..." value={inputValue}
+    <div className="sf-container">
+      <div className="sf-search-container">
+        <input className="sf-search-input" type="text" placeholder="Search..." value={inputValue}
           onChange={handleInputChange} onKeyPress={handleKeyPress} />
-        <button className="search-button" onClick={handleSearch}>SEARCH</button>
+        <button className="sf-search-button" onClick={handleSearch}>SEARCH</button>
       </div>
-      <button className="add-button" onClick={() => handleClickAddMovie()}>+ ADD MOVIE</button>
+      <button className="sf-add-button" onClick={() => handleClickAddMovie()}>+ ADD MOVIE</button>
     </div>
   );
 };

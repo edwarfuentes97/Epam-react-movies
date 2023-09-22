@@ -1,7 +1,7 @@
 /*
 This image provide in figa dont really like me, so i change 
 */
-.container {
+.sf-container {
     background-image: url('../../assets/searchBackground-custom.jpeg');
     background-color: gray;
     background-size: cover;
@@ -17,14 +17,14 @@ This image provide in figa dont really like me, so i change
     border-radius: 0 0 5px;
 }
 
-.search-container {
+.sf-search-container {
     display: flex;
     align-items: center;
     gap: 10px;
     width: 90%;
 }
 
-.search-input {
+.sf-search-input {
     background-color: rgba(63, 63, 63, 0.5);
     border: none;
     padding: 10px;
@@ -35,7 +35,7 @@ This image provide in figa dont really like me, so i change
     font-size: 20px;
 }
 
-.search-button {
+.sf-search-button {
     background-color: red;
     color: white;
     border: none;
@@ -46,7 +46,7 @@ This image provide in figa dont really like me, so i change
     height: 50px;
 }
 
-.add-button {
+.sf-add-button {
     background-color: rgba(110, 110, 110, 0.937);
     color: #ffffff;
     border: none;

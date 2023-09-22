@@ -1,5 +1,5 @@
 
-.genre-general-container{
+.gs-genre-general-container {
     background: #060d1df2;
     display: flex;
     justify-content: space-between;
@@ -7,9 +7,10 @@
     align-content: center;
     flex-wrap: wrap;
     flex-direction: row;
+    padding: 0 2% 0;
 }
 
-.genre-list {
+.gs-genre-list {
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -17,7 +18,7 @@
     color: whitesmoke;
 }
 
-.genre-item {
+.gs-genre-item {
     cursor: pointer;
     width: 120px;
     text-align: center;
@@ -30,37 +31,37 @@
     text-transform: uppercase;
 }
 
-.border-red{
+.gs-border-red{
     padding-bottom: 1em;
     border-bottom: 2px solid red;
     transition: border-color 0.3s ease, color 0.3s ease;
 }
 
-.border-white {
+.gs-border-white {
     padding-bottom: 1em;
     border-bottom: 2px solid white;
     transition: border-color 0.3s ease, color 0.3s ease;
 }
 
-.genre-item-selected {
+.gs-genre-item-selected {
     color: whitesmoke;
     font-weight: 800;
 }
 
-.separator-line {
+.gs-separator-line {
     width: 100%;
     height: 2px;
     background-color: #ccc;
     border: 0;
 }
 
-.genre-sortby {
+.gs-genre-sortby {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.select-sorby {
+.gs-select-sorby {
     background-color: transparent;
     color: whitesmoke;
     border: none;
@@ -73,7 +74,7 @@
     background-size: 20px;
 }
 
-.span-sortby{
+.gs-span-sortby{
     color: rgb(128, 128, 128);
     font-size: .8rem;
 }

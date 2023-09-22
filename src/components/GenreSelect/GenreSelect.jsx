@@ -10,13 +10,14 @@ export function GenreSelect({ genres , current, selectedGenreCallback }) {
   };
 
   return (
-      <div className="genre-general-container">
-        <div className={'genre-container'}>
-          <ul className="genre-list">
+      <div className="gs-genre-general-container">
+        <div className={'gs-genre-container'}>
+          <ul className="gs-genre-list">
             { genres && genres.map((sGenres) => (
                 <li
                     key={sGenres}
-                    className={`genre-item ${selectedGenre === sGenres ? 'genre-item-selected border-red' : 'border-white'}`}
+                    className={`gs-genre-item ${selectedGenre === sGenres 
+                      ? 'gs-genre-item-selected gs-border-red' : 'gs-border-white'}`}
                     onClick={() => handleGenreClick(sGenres)}
                 >
                   {sGenres}
@@ -25,9 +26,9 @@ export function GenreSelect({ genres , current, selectedGenreCallback }) {
           </ul>
         </div>
 
-        <div className="genre-sortby">
-          <span className={'span-sortby'}>SORT BY</span>
-          <select name="sortby" id="sortby" className={'select-sorby'}>
+        <div className="gs-genre-sortby">
+          <span className={'gs-span-sortby'}>SORT BY</span>
+          <select name="sortby" id="sortby" className={'gs-select-sorby'}>
             <option key={'release_date'} value="release_date">RELEASE DATE</option>
             <option key={'rating'} value="rating">RATING</option>
             <option key={'last_updated'} value="last_updated">LAST UPDATED</option>
