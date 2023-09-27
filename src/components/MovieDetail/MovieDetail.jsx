@@ -19,7 +19,7 @@ export default function MovieDetail({
         <>
             <div className="md-container">
                 <div className="md-container-image">
-                    <img src={movieImageUrl} alt="movie-poster" className="md-image" />
+                    <img src={movieImageUrl} alt={movieName} className="md-image" />
                 </div>
                 <div className="md-container-info">
                     <div className="md-row md-icon">
@@ -33,7 +33,12 @@ export default function MovieDetail({
                         <span className="md-score">{score}</span>
                     </div>
                     <div className="md-row">
-                        <h3 className="md-genres">{genres}</h3>
+                        {genres &&
+                            genres.map(elm => {
+                                return (<h3 key={elm.id} className="md-genres">{elm.value}</h3>)
+                            })
+                        }
+
                     </div>
                     <div className="md-row">
                         <span className="md-release-date">{releaseDate}</span>

@@ -1,5 +1,5 @@
 import './App.css';
-import  Movies from "./assets/movies.json";
+import Movies from "./assets/movies.json";
 /* import Counter from './components/counter/counter';
 import Button from './components/Button';
  */
@@ -20,7 +20,11 @@ const onSelectedGenre = (genre) => {
 }
 
 const genres = [
-  'Action', 'Adventure', 'Science', 'Comedy', 'Drama'
+  { id: '12_Action_34', value: 'Action' },
+  { id: '12_Adventure_34', value: 'Adventure' },
+  { id: '12_Science_34', value: 'Science' },
+  { id: '12_Comedy_34', value: 'Comedy' },
+  { id: '12_Drama_34', value: 'Drama' }
 ]
 
 
@@ -59,7 +63,7 @@ function App() {
 
         <GenreSelect
           genres={genres}
-          current={genres[1]}
+          current={genres[1].value}
           selectedGenreCallback={onSelectedGenre} />
 
         <div className='mt-container'>

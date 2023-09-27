@@ -46,3 +46,7 @@
     line-height: normal;
     opacity: 0.5;
 }
+
+.mt-genres-container {
+    display: inline-table;
+}

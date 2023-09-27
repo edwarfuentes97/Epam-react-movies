@@ -15,12 +15,12 @@ export function GenreSelect({ genres , current, selectedGenreCallback }) {
           <ul className="gs-genre-list">
             { genres && genres.map((sGenres) => (
                 <li
-                    key={sGenres}
-                    className={`gs-genre-item ${selectedGenre === sGenres 
+                    key={sGenres.id}
+                    className={`gs-genre-item ${selectedGenre === sGenres.value 
                       ? 'gs-genre-item-selected gs-border-red' : 'gs-border-white'}`}
-                    onClick={() => handleGenreClick(sGenres)}
+                    onClick={() => handleGenreClick(sGenres.value)}
                 >
-                  {sGenres}
+                  {sGenres.value}
                 </li>
             )) }
           </ul>

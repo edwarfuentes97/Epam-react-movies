@@ -5,9 +5,26 @@
         "releaseDate": "2023-09-21",
         "score": 3,
         "genres": [
-            "Action",
-            "Adventure",
-            "Science Fiction"
+            {
+                "id": "12_Action_34",
+                "value": "Action"
+            },
+            {
+                "id": "12_Adventure_34",
+                "value": "Adventure"
+            },
+            {
+                "id": "12_Science_34",
+                "value": "Science"
+            },
+            {
+                "id": "12_Comedy_34",
+                "value": "Comedy"
+            },
+            {
+                "id": "12_Drama_34",
+                "value": "Drama"
+            }
         ],
         "onClickEvent": "https://example.com/movie1",
         "description": "The Avengers is a cinematic masterpiece that combines the forces of some of the most beloved Marvel superheroes in a thrilling, action-packed adventure. Directed by Joss Whedon, the film is a pivotal moment in the Marvel Cinematic Universe (MCU) and brings together an ensemble cast of iconic characters. At its core, the story revolves around the threat posed by Loki, the cunning and mischievous Asgardian god. Loki gains access to the powerful Tesseract, an otherworldly energy source with the potential for catastrophic destruction. With the Tesseract in his possession, Loki sets his sights on Earth, aiming to subjugate humanity and rule as its sovereign. To combat this impending global crisis, Nick Fury, the enigmatic director of S.H.I.E.L.D., assembles a team of extraordinary individuals, each with their own unique abilities and personalities.",
@@ -19,8 +36,26 @@
         "releaseDate": "2023-09-22",
         "score": 3,
         "genres": [
-            "Comedy",
-            "Drama"
+            {
+                "id": "12_Action_34",
+                "value": "Action"
+            },
+            {
+                "id": "12_Adventure_34",
+                "value": "Adventure"
+            },
+            {
+                "id": "12_Science_34",
+                "value": "Science"
+            },
+            {
+                "id": "12_Comedy_34",
+                "value": "Comedy"
+            },
+            {
+                "id": "12_Drama_34",
+                "value": "Drama"
+            }
         ],
         "onClickEvent": "https://example.com/movie2",
         "description": "The Avengers is a cinematic masterpiece that combines the forces of some of the most beloved Marvel superheroes in a thrilling, action-packed adventure. Directed by Joss Whedon, the film is a pivotal moment in the Marvel Cinematic Universe (MCU) and brings together an ensemble cast of iconic characters. At its core, the story revolves around the threat posed by Loki, the cunning and mischievous Asgardian god. Loki gains access to the powerful Tesseract, an otherworldly energy source with the potential for catastrophic destruction. With the Tesseract in his possession, Loki sets his sights on Earth, aiming to subjugate humanity and rule as its sovereign. To combat this impending global crisis, Nick Fury, the enigmatic director of S.H.I.E.L.D., assembles a team of extraordinary individuals, each with their own unique abilities and personalities.",
@@ -32,8 +67,26 @@
         "releaseDate": "2023-09-23",
         "score": 3,
         "genres": [
-            "Adventure",
-            "Comedy"
+            {
+                "id": "12_Action_34",
+                "value": "Action"
+            },
+            {
+                "id": "12_Adventure_34",
+                "value": "Adventure"
+            },
+            {
+                "id": "12_Science_34",
+                "value": "Science"
+            },
+            {
+                "id": "12_Comedy_34",
+                "value": "Comedy"
+            },
+            {
+                "id": "12_Drama_34",
+                "value": "Drama"
+            }
         ],
         "onClickEvent": "https://example.com/movie3",
         "description": "The Avengers is a cinematic masterpiece that combines the forces of some of the most beloved Marvel superheroes in a thrilling, action-packed adventure. Directed by Joss Whedon, the film is a pivotal moment in the Marvel Cinematic Universe (MCU) and brings together an ensemble cast of iconic characters. At its core, the story revolves around the threat posed by Loki, the cunning and mischievous Asgardian god. Loki gains access to the powerful Tesseract, an otherworldly energy source with the potential for catastrophic destruction. With the Tesseract in his possession, Loki sets his sights on Earth, aiming to subjugate humanity and rule as its sovereign. To combat this impending global crisis, Nick Fury, the enigmatic director of S.H.I.E.L.D., assembles a team of extraordinary individuals, each with their own unique abilities and personalities.",
@@ -45,9 +98,26 @@
         "releaseDate": "2023-09-21",
         "score": 3,
         "genres": [
-            "Action",
-            "Adventure",
-            "Science Fiction"
+            {
+                "id": "12_Action_34",
+                "value": "Action"
+            },
+            {
+                "id": "12_Adventure_34",
+                "value": "Adventure"
+            },
+            {
+                "id": "12_Science_34",
+                "value": "Science"
+            },
+            {
+                "id": "12_Comedy_34",
+                "value": "Comedy"
+            },
+            {
+                "id": "12_Drama_34",
+                "value": "Drama"
+            }
         ],
         "onClickEvent": "https://example.com/movie1",
         "description": "The Avengers is a cinematic masterpiece that combines the forces of some of the most beloved Marvel superheroes in a thrilling, action-packed adventure. Directed by Joss Whedon, the film is a pivotal moment in the Marvel Cinematic Universe (MCU) and brings together an ensemble cast of iconic characters. At its core, the story revolves around the threat posed by Loki, the cunning and mischievous Asgardian god. Loki gains access to the powerful Tesseract, an otherworldly energy source with the potential for catastrophic destruction. With the Tesseract in his possession, Loki sets his sights on Earth, aiming to subjugate humanity and rule as its sovereign. To combat this impending global crisis, Nick Fury, the enigmatic director of S.H.I.E.L.D., assembles a team of extraordinary individuals, each with their own unique abilities and personalities.",
@@ -59,8 +129,26 @@
         "releaseDate": "2023-09-22",
         "score": 3,
         "genres": [
-            "Comedy",
-            "Drama"
+            {
+                "id": "12_Action_34",
+                "value": "Action"
+            },
+            {
+                "id": "12_Adventure_34",
+                "value": "Adventure"
+            },
+            {
+                "id": "12_Science_34",
+                "value": "Science"
+            },
+            {
+                "id": "12_Comedy_34",
+                "value": "Comedy"
+            },
+            {
+                "id": "12_Drama_34",
+                "value": "Drama"
+            }
         ],
         "onClickEvent": "https://example.com/movie2",
         "description": "The Avengers is a cinematic masterpiece that combines the forces of some of the most beloved Marvel superheroes in a thrilling, action-packed adventure. Directed by Joss Whedon, the film is a pivotal moment in the Marvel Cinematic Universe (MCU) and brings together an ensemble cast of iconic characters. At its core, the story revolves around the threat posed by Loki, the cunning and mischievous Asgardian god. Loki gains access to the powerful Tesseract, an otherworldly energy source with the potential for catastrophic destruction. With the Tesseract in his possession, Loki sets his sights on Earth, aiming to subjugate humanity and rule as its sovereign. To combat this impending global crisis, Nick Fury, the enigmatic director of S.H.I.E.L.D., assembles a team of extraordinary individuals, each with their own unique abilities and personalities.",
@@ -72,8 +160,26 @@
         "releaseDate": "2023-09-23",
         "score": 3,
         "genres": [
-            "Adventure",
-            "Comedy"
+            {
+                "id": "12_Action_34",
+                "value": "Action"
+            },
+            {
+                "id": "12_Adventure_34",
+                "value": "Adventure"
+            },
+            {
+                "id": "12_Science_34",
+                "value": "Science"
+            },
+            {
+                "id": "12_Comedy_34",
+                "value": "Comedy"
+            },
+            {
+                "id": "12_Drama_34",
+                "value": "Drama"
+            }
         ],
         "onClickEvent": "https://example.com/movie3",
         "description": "The Avengers is a cinematic masterpiece that combines the forces of some of the most beloved Marvel superheroes in a thrilling, action-packed adventure. Directed by Joss Whedon, the film is a pivotal moment in the Marvel Cinematic Universe (MCU) and brings together an ensemble cast of iconic characters. At its core, the story revolves around the threat posed by Loki, the cunning and mischievous Asgardian god. Loki gains access to the powerful Tesseract, an otherworldly energy source with the potential for catastrophic destruction. With the Tesseract in his possession, Loki sets his sights on Earth, aiming to subjugate humanity and rule as its sovereign. To combat this impending global crisis, Nick Fury, the enigmatic director of S.H.I.E.L.D., assembles a team of extraordinary individuals, each with their own unique abilities and personalities.",
@@ -85,9 +191,26 @@
         "releaseDate": "2023-09-21",
         "score": 3,
         "genres": [
-            "Action",
-            "Adventure",
-            "Science Fiction"
+            {
+                "id": "12_Action_34",
+                "value": "Action"
+            },
+            {
+                "id": "12_Adventure_34",
+                "value": "Adventure"
+            },
+            {
+                "id": "12_Science_34",
+                "value": "Science"
+            },
+            {
+                "id": "12_Comedy_34",
+                "value": "Comedy"
+            },
+            {
+                "id": "12_Drama_34",
+                "value": "Drama"
+            }
         ],
         "onClickEvent": "https://example.com/movie1",
         "description": "The Avengers is a cinematic masterpiece that combines the forces of some of the most beloved Marvel superheroes in a thrilling, action-packed adventure. Directed by Joss Whedon, the film is a pivotal moment in the Marvel Cinematic Universe (MCU) and brings together an ensemble cast of iconic characters. At its core, the story revolves around the threat posed by Loki, the cunning and mischievous Asgardian god. Loki gains access to the powerful Tesseract, an otherworldly energy source with the potential for catastrophic destruction. With the Tesseract in his possession, Loki sets his sights on Earth, aiming to subjugate humanity and rule as its sovereign. To combat this impending global crisis, Nick Fury, the enigmatic director of S.H.I.E.L.D., assembles a team of extraordinary individuals, each with their own unique abilities and personalities.",
@@ -99,128 +222,26 @@
         "releaseDate": "2023-09-22",
         "score": 3,
         "genres": [
-            "Comedy",
-            "Drama"
-        ],
-        "onClickEvent": "https://example.com/movie2",
-        "description": "The Avengers is a cinematic masterpiece that combines the forces of some of the most beloved Marvel superheroes in a thrilling, action-packed adventure. Directed by Joss Whedon, the film is a pivotal moment in the Marvel Cinematic Universe (MCU) and brings together an ensemble cast of iconic characters. At its core, the story revolves around the threat posed by Loki, the cunning and mischievous Asgardian god. Loki gains access to the powerful Tesseract, an otherworldly energy source with the potential for catastrophic destruction. With the Tesseract in his possession, Loki sets his sights on Earth, aiming to subjugate humanity and rule as its sovereign. To combat this impending global crisis, Nick Fury, the enigmatic director of S.H.I.E.L.D., assembles a team of extraordinary individuals, each with their own unique abilities and personalities.",
-        "duration": "2h 34min"
-    },
-    {
-        "movieImageUrl": "https://cdn.marvel.com/content/2x/aven2023001_cov_2.jpg",
-        "movieName": "Example Movie 3",
-        "releaseDate": "2023-09-23",
-        "score": 3,
-        "genres": [
-            "Adventure",
-            "Comedy"
-        ],
-        "onClickEvent": "https://example.com/movie3",
-        "description": "The Avengers is a cinematic masterpiece that combines the forces of some of the most beloved Marvel superheroes in a thrilling, action-packed adventure. Directed by Joss Whedon, the film is a pivotal moment in the Marvel Cinematic Universe (MCU) and brings together an ensemble cast of iconic characters. At its core, the story revolves around the threat posed by Loki, the cunning and mischievous Asgardian god. Loki gains access to the powerful Tesseract, an otherworldly energy source with the potential for catastrophic destruction. With the Tesseract in his possession, Loki sets his sights on Earth, aiming to subjugate humanity and rule as its sovereign. To combat this impending global crisis, Nick Fury, the enigmatic director of S.H.I.E.L.D., assembles a team of extraordinary individuals, each with their own unique abilities and personalities.",
-        "duration": "2h 34min"
-    },
-    {
-        "movieImageUrl": "https://ohsmagnet.com/wp-content/uploads/2019/04/unnamed-607x900.jpg",
-        "movieName": "Example Movie 1",
-        "releaseDate": "2023-09-21",
-        "score": 3,
-        "genres": [
-            "Action",
-            "Adventure",
-            "Science Fiction"
-        ],
-        "onClickEvent": "https://example.com/movie1",
-        "description": "The Avengers is a cinematic masterpiece that combines the forces of some of the most beloved Marvel superheroes in a thrilling, action-packed adventure. Directed by Joss Whedon, the film is a pivotal moment in the Marvel Cinematic Universe (MCU) and brings together an ensemble cast of iconic characters. At its core, the story revolves around the threat posed by Loki, the cunning and mischievous Asgardian god. Loki gains access to the powerful Tesseract, an otherworldly energy source with the potential for catastrophic destruction. With the Tesseract in his possession, Loki sets his sights on Earth, aiming to subjugate humanity and rule as its sovereign. To combat this impending global crisis, Nick Fury, the enigmatic director of S.H.I.E.L.D., assembles a team of extraordinary individuals, each with their own unique abilities and personalities.",
-        "duration": "2h 34min"
-    },
-    {
-        "movieImageUrl": "https://images.thedirect.com/media/photos/endgamecover1.jpg",
-        "movieName": "Example Movie 2",
-        "releaseDate": "2023-09-22",
-        "score": 3,
-        "genres": [
-            "Comedy",
-            "Drama"
-        ],
-        "onClickEvent": "https://example.com/movie2",
-        "description": "The Avengers is a cinematic masterpiece that combines the forces of some of the most beloved Marvel superheroes in a thrilling, action-packed adventure. Directed by Joss Whedon, the film is a pivotal moment in the Marvel Cinematic Universe (MCU) and brings together an ensemble cast of iconic characters. At its core, the story revolves around the threat posed by Loki, the cunning and mischievous Asgardian god. Loki gains access to the powerful Tesseract, an otherworldly energy source with the potential for catastrophic destruction. With the Tesseract in his possession, Loki sets his sights on Earth, aiming to subjugate humanity and rule as its sovereign. To combat this impending global crisis, Nick Fury, the enigmatic director of S.H.I.E.L.D., assembles a team of extraordinary individuals, each with their own unique abilities and personalities.",
-        "duration": "2h 34min"
-    },
-    {
-        "movieImageUrl": "https://cdn.marvel.com/content/2x/aven2023001_cov_2.jpg",
-        "movieName": "Example Movie 3",
-        "releaseDate": "2023-09-23",
-        "score": 3,
-        "genres": [
-            "Adventure",
-            "Comedy"
-        ],
-        "onClickEvent": "https://example.com/movie3",
-        "description": "The Avengers is a cinematic masterpiece that combines the forces of some of the most beloved Marvel superheroes in a thrilling, action-packed adventure. Directed by Joss Whedon, the film is a pivotal moment in the Marvel Cinematic Universe (MCU) and brings together an ensemble cast of iconic characters. At its core, the story revolves around the threat posed by Loki, the cunning and mischievous Asgardian god. Loki gains access to the powerful Tesseract, an otherworldly energy source with the potential for catastrophic destruction. With the Tesseract in his possession, Loki sets his sights on Earth, aiming to subjugate humanity and rule as its sovereign. To combat this impending global crisis, Nick Fury, the enigmatic director of S.H.I.E.L.D., assembles a team of extraordinary individuals, each with their own unique abilities and personalities.",
-        "duration": "2h 34min"
-    },
-    {
-        "movieImageUrl": "https://ohsmagnet.com/wp-content/uploads/2019/04/unnamed-607x900.jpg",
-        "movieName": "Example Movie 1",
-        "releaseDate": "2023-09-21",
-        "score": 3,
-        "genres": [
-            "Action",
-            "Adventure",
-            "Science Fiction"
-        ],
-        "onClickEvent": "https://example.com/movie1",
-        "description": "The Avengers is a cinematic masterpiece that combines the forces of some of the most beloved Marvel superheroes in a thrilling, action-packed adventure. Directed by Joss Whedon, the film is a pivotal moment in the Marvel Cinematic Universe (MCU) and brings together an ensemble cast of iconic characters. At its core, the story revolves around the threat posed by Loki, the cunning and mischievous Asgardian god. Loki gains access to the powerful Tesseract, an otherworldly energy source with the potential for catastrophic destruction. With the Tesseract in his possession, Loki sets his sights on Earth, aiming to subjugate humanity and rule as its sovereign. To combat this impending global crisis, Nick Fury, the enigmatic director of S.H.I.E.L.D., assembles a team of extraordinary individuals, each with their own unique abilities and personalities.",
-        "duration": "2h 34min"
-    },
-    {
-        "movieImageUrl": "https://ohsmagnet.com/wp-content/uploads/2019/04/unnamed-607x900.jpg",
-        "movieName": "Example Movie 2",
-        "releaseDate": "2023-09-22",
-        "score": 3,
-        "genres": [
-            "Comedy",
-            "Drama"
-        ],
-        "onClickEvent": "https://example.com/movie2",
-        "description": "The Avengers is a cinematic masterpiece that combines the forces of some of the most beloved Marvel superheroes in a thrilling, action-packed adventure. Directed by Joss Whedon, the film is a pivotal moment in the Marvel Cinematic Universe (MCU) and brings together an ensemble cast of iconic characters. At its core, the story revolves around the threat posed by Loki, the cunning and mischievous Asgardian god. Loki gains access to the powerful Tesseract, an otherworldly energy source with the potential for catastrophic destruction. With the Tesseract in his possession, Loki sets his sights on Earth, aiming to subjugate humanity and rule as its sovereign. To combat this impending global crisis, Nick Fury, the enigmatic director of S.H.I.E.L.D., assembles a team of extraordinary individuals, each with their own unique abilities and personalities.",
-        "duration": "2h 34min"
-    },
-    {
-        "movieImageUrl": "https://images.thedirect.com/media/photos/endgamecover1.jpg",
-        "movieName": "Example Movie 3",
-        "releaseDate": "2023-09-23",
-        "score": 3,
-        "genres": [
-            "Adventure",
-            "Comedy"
-        ],
-        "onClickEvent": "https://example.com/movie3",
-        "description": "The Avengers is a cinematic masterpiece that combines the forces of some of the most beloved Marvel superheroes in a thrilling, action-packed adventure. Directed by Joss Whedon, the film is a pivotal moment in the Marvel Cinematic Universe (MCU) and brings together an ensemble cast of iconic characters. At its core, the story revolves around the threat posed by Loki, the cunning and mischievous Asgardian god. Loki gains access to the powerful Tesseract, an otherworldly energy source with the potential for catastrophic destruction. With the Tesseract in his possession, Loki sets his sights on Earth, aiming to subjugate humanity and rule as its sovereign. To combat this impending global crisis, Nick Fury, the enigmatic director of S.H.I.E.L.D., assembles a team of extraordinary individuals, each with their own unique abilities and personalities.",
-        "duration": "2h 34min"
-    },
-    {
-        "movieImageUrl": "https://ohsmagnet.com/wp-content/uploads/2019/04/unnamed-607x900.jpg",
-        "movieName": "Example Movie 1",
-        "releaseDate": "2023-09-21",
-        "score": 3,
-        "genres": [
-            "Action",
-            "Adventure",
-            "Science Fiction"
-        ],
-        "onClickEvent": "https://example.com/movie1",
-        "description": "The Avengers is a cinematic masterpiece that combines the forces of some of the most beloved Marvel superheroes in a thrilling, action-packed adventure. Directed by Joss Whedon, the film is a pivotal moment in the Marvel Cinematic Universe (MCU) and brings together an ensemble cast of iconic characters. At its core, the story revolves around the threat posed by Loki, the cunning and mischievous Asgardian god. Loki gains access to the powerful Tesseract, an otherworldly energy source with the potential for catastrophic destruction. With the Tesseract in his possession, Loki sets his sights on Earth, aiming to subjugate humanity and rule as its sovereign. To combat this impending global crisis, Nick Fury, the enigmatic director of S.H.I.E.L.D., assembles a team of extraordinary individuals, each with their own unique abilities and personalities.",
-        "duration": "2h 34min"
-    },
-    {
-        "movieImageUrl": "https://images.thedirect.com/media/photos/endgamecover1.jpg",
-        "movieName": "Example Movie 2",
-        "releaseDate": "2023-09-22",
-        "score": 3,
-        "genres": [
-            "Comedy",
-            "Drama"
+            {
+                "id": "12_Action_34",
+                "value": "Action"
+            },
+            {
+                "id": "12_Adventure_34",
+                "value": "Adventure"
+            },
+            {
+                "id": "12_Science_34",
+                "value": "Science"
+            },
+            {
+                "id": "12_Comedy_34",
+                "value": "Comedy"
+            },
+            {
+                "id": "12_Drama_34",
+                "value": "Drama"
+            }
         ],
         "onClickEvent": "https://example.com/movie2",
         "description": "The Avengers is a cinematic masterpiece that combines the forces of some of the most beloved Marvel superheroes in a thrilling, action-packed adventure. Directed by Joss Whedon, the film is a pivotal moment in the Marvel Cinematic Universe (MCU) and brings together an ensemble cast of iconic characters. At its core, the story revolves around the threat posed by Loki, the cunning and mischievous Asgardian god. Loki gains access to the powerful Tesseract, an otherworldly energy source with the potential for catastrophic destruction. With the Tesseract in his possession, Loki sets his sights on Earth, aiming to subjugate humanity and rule as its sovereign. To combat this impending global crisis, Nick Fury, the enigmatic director of S.H.I.E.L.D., assembles a team of extraordinary individuals, each with their own unique abilities and personalities.",
@@ -232,8 +253,26 @@
         "releaseDate": "2023-09-23",
         "score": 3,
         "genres": [
-            "Adventure",
-            "Comedy"
+            {
+                "id": "12_Action_34",
+                "value": "Action"
+            },
+            {
+                "id": "12_Adventure_34",
+                "value": "Adventure"
+            },
+            {
+                "id": "12_Science_34",
+                "value": "Science"
+            },
+            {
+                "id": "12_Comedy_34",
+                "value": "Comedy"
+            },
+            {
+                "id": "12_Drama_34",
+                "value": "Drama"
+            }
         ],
         "onClickEvent": "https://example.com/movie3",
         "description": "The Avengers is a cinematic masterpiece that combines the forces of some of the most beloved Marvel superheroes in a thrilling, action-packed adventure. Directed by Joss Whedon, the film is a pivotal moment in the Marvel Cinematic Universe (MCU) and brings together an ensemble cast of iconic characters. At its core, the story revolves around the threat posed by Loki, the cunning and mischievous Asgardian god. Loki gains access to the powerful Tesseract, an otherworldly energy source with the potential for catastrophic destruction. With the Tesseract in his possession, Loki sets his sights on Earth, aiming to subjugate humanity and rule as its sovereign. To combat this impending global crisis, Nick Fury, the enigmatic director of S.H.I.E.L.D., assembles a team of extraordinary individuals, each with their own unique abilities and personalities.",
@@ -245,9 +284,26 @@
         "releaseDate": "2023-09-21",
         "score": 3,
         "genres": [
-            "Action",
-            "Adventure",
-            "Science Fiction"
+            {
+                "id": "12_Action_34",
+                "value": "Action"
+            },
+            {
+                "id": "12_Adventure_34",
+                "value": "Adventure"
+            },
+            {
+                "id": "12_Science_34",
+                "value": "Science"
+            },
+            {
+                "id": "12_Comedy_34",
+                "value": "Comedy"
+            },
+            {
+                "id": "12_Drama_34",
+                "value": "Drama"
+            }
         ],
         "onClickEvent": "https://example.com/movie1",
         "description": "The Avengers is a cinematic masterpiece that combines the forces of some of the most beloved Marvel superheroes in a thrilling, action-packed adventure. Directed by Joss Whedon, the film is a pivotal moment in the Marvel Cinematic Universe (MCU) and brings together an ensemble cast of iconic characters. At its core, the story revolves around the threat posed by Loki, the cunning and mischievous Asgardian god. Loki gains access to the powerful Tesseract, an otherworldly energy source with the potential for catastrophic destruction. With the Tesseract in his possession, Loki sets his sights on Earth, aiming to subjugate humanity and rule as its sovereign. To combat this impending global crisis, Nick Fury, the enigmatic director of S.H.I.E.L.D., assembles a team of extraordinary individuals, each with their own unique abilities and personalities.",
@@ -259,8 +315,26 @@
         "releaseDate": "2023-09-22",
         "score": 3,
         "genres": [
-            "Comedy",
-            "Drama"
+            {
+                "id": "12_Action_34",
+                "value": "Action"
+            },
+            {
+                "id": "12_Adventure_34",
+                "value": "Adventure"
+            },
+            {
+                "id": "12_Science_34",
+                "value": "Science"
+            },
+            {
+                "id": "12_Comedy_34",
+                "value": "Comedy"
+            },
+            {
+                "id": "12_Drama_34",
+                "value": "Drama"
+            }
         ],
         "onClickEvent": "https://example.com/movie2",
         "description": "The Avengers is a cinematic masterpiece that combines the forces of some of the most beloved Marvel superheroes in a thrilling, action-packed adventure. Directed by Joss Whedon, the film is a pivotal moment in the Marvel Cinematic Universe (MCU) and brings together an ensemble cast of iconic characters. At its core, the story revolves around the threat posed by Loki, the cunning and mischievous Asgardian god. Loki gains access to the powerful Tesseract, an otherworldly energy source with the potential for catastrophic destruction. With the Tesseract in his possession, Loki sets his sights on Earth, aiming to subjugate humanity and rule as its sovereign. To combat this impending global crisis, Nick Fury, the enigmatic director of S.H.I.E.L.D., assembles a team of extraordinary individuals, each with their own unique abilities and personalities.",
@@ -272,8 +346,26 @@
         "releaseDate": "2023-09-23",
         "score": 3,
         "genres": [
-            "Adventure",
-            "Comedy"
+            {
+                "id": "12_Action_34",
+                "value": "Action"
+            },
+            {
+                "id": "12_Adventure_34",
+                "value": "Adventure"
+            },
+            {
+                "id": "12_Science_34",
+                "value": "Science"
+            },
+            {
+                "id": "12_Comedy_34",
+                "value": "Comedy"
+            },
+            {
+                "id": "12_Drama_34",
+                "value": "Drama"
+            }
         ],
         "onClickEvent": "https://example.com/movie3",
         "description": "The Avengers is a cinematic masterpiece that combines the forces of some of the most beloved Marvel superheroes in a thrilling, action-packed adventure. Directed by Joss Whedon, the film is a pivotal moment in the Marvel Cinematic Universe (MCU) and brings together an ensemble cast of iconic characters. At its core, the story revolves around the threat posed by Loki, the cunning and mischievous Asgardian god. Loki gains access to the powerful Tesseract, an otherworldly energy source with the potential for catastrophic destruction. With the Tesseract in his possession, Loki sets his sights on Earth, aiming to subjugate humanity and rule as its sovereign. To combat this impending global crisis, Nick Fury, the enigmatic director of S.H.I.E.L.D., assembles a team of extraordinary individuals, each with their own unique abilities and personalities.",
@@ -285,9 +377,26 @@
         "releaseDate": "2023-09-21",
         "score": 3,
         "genres": [
-            "Action",
-            "Adventure",
-            "Science Fiction"
+            {
+                "id": "12_Action_34",
+                "value": "Action"
+            },
+            {
+                "id": "12_Adventure_34",
+                "value": "Adventure"
+            },
+            {
+                "id": "12_Science_34",
+                "value": "Science"
+            },
+            {
+                "id": "12_Comedy_34",
+                "value": "Comedy"
+            },
+            {
+                "id": "12_Drama_34",
+                "value": "Drama"
+            }
         ],
         "onClickEvent": "https://example.com/movie1",
         "description": "The Avengers is a cinematic masterpiece that combines the forces of some of the most beloved Marvel superheroes in a thrilling, action-packed adventure. Directed by Joss Whedon, the film is a pivotal moment in the Marvel Cinematic Universe (MCU) and brings together an ensemble cast of iconic characters. At its core, the story revolves around the threat posed by Loki, the cunning and mischievous Asgardian god. Loki gains access to the powerful Tesseract, an otherworldly energy source with the potential for catastrophic destruction. With the Tesseract in his possession, Loki sets his sights on Earth, aiming to subjugate humanity and rule as its sovereign. To combat this impending global crisis, Nick Fury, the enigmatic director of S.H.I.E.L.D., assembles a team of extraordinary individuals, each with their own unique abilities and personalities.",
@@ -299,8 +408,26 @@
         "releaseDate": "2023-09-22",
         "score": 3,
         "genres": [
-            "Comedy",
-            "Drama"
+            {
+                "id": "12_Action_34",
+                "value": "Action"
+            },
+            {
+                "id": "12_Adventure_34",
+                "value": "Adventure"
+            },
+            {
+                "id": "12_Science_34",
+                "value": "Science"
+            },
+            {
+                "id": "12_Comedy_34",
+                "value": "Comedy"
+            },
+            {
+                "id": "12_Drama_34",
+                "value": "Drama"
+            }
         ],
         "onClickEvent": "https://example.com/movie2",
         "description": "The Avengers is a cinematic masterpiece that combines the forces of some of the most beloved Marvel superheroes in a thrilling, action-packed adventure. Directed by Joss Whedon, the film is a pivotal moment in the Marvel Cinematic Universe (MCU) and brings together an ensemble cast of iconic characters. At its core, the story revolves around the threat posed by Loki, the cunning and mischievous Asgardian god. Loki gains access to the powerful Tesseract, an otherworldly energy source with the potential for catastrophic destruction. With the Tesseract in his possession, Loki sets his sights on Earth, aiming to subjugate humanity and rule as its sovereign. To combat this impending global crisis, Nick Fury, the enigmatic director of S.H.I.E.L.D., assembles a team of extraordinary individuals, each with their own unique abilities and personalities.",
@@ -312,8 +439,26 @@
         "releaseDate": "2023-09-23",
         "score": 3,
         "genres": [
-            "Adventure",
-            "Comedy"
+            {
+                "id": "12_Action_34",
+                "value": "Action"
+            },
+            {
+                "id": "12_Adventure_34",
+                "value": "Adventure"
+            },
+            {
+                "id": "12_Science_34",
+                "value": "Science"
+            },
+            {
+                "id": "12_Comedy_34",
+                "value": "Comedy"
+            },
+            {
+                "id": "12_Drama_34",
+                "value": "Drama"
+            }
         ],
         "onClickEvent": "https://example.com/movie3",
         "description": "The Avengers is a cinematic masterpiece that combines the forces of some of the most beloved Marvel superheroes in a thrilling, action-packed adventure. Directed by Joss Whedon, the film is a pivotal moment in the Marvel Cinematic Universe (MCU) and brings together an ensemble cast of iconic characters. At its core, the story revolves around the threat posed by Loki, the cunning and mischievous Asgardian god. Loki gains access to the powerful Tesseract, an otherworldly energy source with the potential for catastrophic destruction. With the Tesseract in his possession, Loki sets his sights on Earth, aiming to subjugate humanity and rule as its sovereign. To combat this impending global crisis, Nick Fury, the enigmatic director of S.H.I.E.L.D., assembles a team of extraordinary individuals, each with their own unique abilities and personalities.",
@@ -325,9 +470,26 @@
         "releaseDate": "2023-09-21",
         "score": 3,
         "genres": [
-            "Action",
-            "Adventure",
-            "Science Fiction"
+            {
+                "id": "12_Action_34",
+                "value": "Action"
+            },
+            {
+                "id": "12_Adventure_34",
+                "value": "Adventure"
+            },
+            {
+                "id": "12_Science_34",
+                "value": "Science"
+            },
+            {
+                "id": "12_Comedy_34",
+                "value": "Comedy"
+            },
+            {
+                "id": "12_Drama_34",
+                "value": "Drama"
+            }
         ],
         "onClickEvent": "https://example.com/movie1",
         "description": "The Avengers is a cinematic masterpiece that combines the forces of some of the most beloved Marvel superheroes in a thrilling, action-packed adventure. Directed by Joss Whedon, the film is a pivotal moment in the Marvel Cinematic Universe (MCU) and brings together an ensemble cast of iconic characters. At its core, the story revolves around the threat posed by Loki, the cunning and mischievous Asgardian god. Loki gains access to the powerful Tesseract, an otherworldly energy source with the potential for catastrophic destruction. With the Tesseract in his possession, Loki sets his sights on Earth, aiming to subjugate humanity and rule as its sovereign. To combat this impending global crisis, Nick Fury, the enigmatic director of S.H.I.E.L.D., assembles a team of extraordinary individuals, each with their own unique abilities and personalities.",
@@ -339,8 +501,26 @@
         "releaseDate": "2023-09-22",
         "score": 3,
         "genres": [
-            "Comedy",
-            "Drama"
+            {
+                "id": "12_Action_34",
+                "value": "Action"
+            },
+            {
+                "id": "12_Adventure_34",
+                "value": "Adventure"
+            },
+            {
+                "id": "12_Science_34",
+                "value": "Science"
+            },
+            {
+                "id": "12_Comedy_34",
+                "value": "Comedy"
+            },
+            {
+                "id": "12_Drama_34",
+                "value": "Drama"
+            }
         ],
         "onClickEvent": "https://example.com/movie2",
         "description": "The Avengers is a cinematic masterpiece that combines the forces of some of the most beloved Marvel superheroes in a thrilling, action-packed adventure. Directed by Joss Whedon, the film is a pivotal moment in the Marvel Cinematic Universe (MCU) and brings together an ensemble cast of iconic characters. At its core, the story revolves around the threat posed by Loki, the cunning and mischievous Asgardian god. Loki gains access to the powerful Tesseract, an otherworldly energy source with the potential for catastrophic destruction. With the Tesseract in his possession, Loki sets his sights on Earth, aiming to subjugate humanity and rule as its sovereign. To combat this impending global crisis, Nick Fury, the enigmatic director of S.H.I.E.L.D., assembles a team of extraordinary individuals, each with their own unique abilities and personalities.",
@@ -352,8 +532,305 @@
         "releaseDate": "2023-09-23",
         "score": 3,
         "genres": [
-            "Adventure",
-            "Comedy"
+            {
+                "id": "12_Action_34",
+                "value": "Action"
+            },
+            {
+                "id": "12_Adventure_34",
+                "value": "Adventure"
+            },
+            {
+                "id": "12_Science_34",
+                "value": "Science"
+            },
+            {
+                "id": "12_Comedy_34",
+                "value": "Comedy"
+            },
+            {
+                "id": "12_Drama_34",
+                "value": "Drama"
+            }
+        ],
+        "onClickEvent": "https://example.com/movie3",
+        "description": "The Avengers is a cinematic masterpiece that combines the forces of some of the most beloved Marvel superheroes in a thrilling, action-packed adventure. Directed by Joss Whedon, the film is a pivotal moment in the Marvel Cinematic Universe (MCU) and brings together an ensemble cast of iconic characters. At its core, the story revolves around the threat posed by Loki, the cunning and mischievous Asgardian god. Loki gains access to the powerful Tesseract, an otherworldly energy source with the potential for catastrophic destruction. With the Tesseract in his possession, Loki sets his sights on Earth, aiming to subjugate humanity and rule as its sovereign. To combat this impending global crisis, Nick Fury, the enigmatic director of S.H.I.E.L.D., assembles a team of extraordinary individuals, each with their own unique abilities and personalities.",
+        "duration": "2h 34min"
+    },
+    {
+        "movieImageUrl": "https://ohsmagnet.com/wp-content/uploads/2019/04/unnamed-607x900.jpg",
+        "movieName": "Example Movie 1",
+        "releaseDate": "2023-09-21",
+        "score": 3,
+        "genres": [
+            {
+                "id": "12_Action_34",
+                "value": "Action"
+            },
+            {
+                "id": "12_Adventure_34",
+                "value": "Adventure"
+            },
+            {
+                "id": "12_Science_34",
+                "value": "Science"
+            },
+            {
+                "id": "12_Comedy_34",
+                "value": "Comedy"
+            },
+            {
+                "id": "12_Drama_34",
+                "value": "Drama"
+            }
+        ],
+        "onClickEvent": "https://example.com/movie1",
+        "description": "The Avengers is a cinematic masterpiece that combines the forces of some of the most beloved Marvel superheroes in a thrilling, action-packed adventure. Directed by Joss Whedon, the film is a pivotal moment in the Marvel Cinematic Universe (MCU) and brings together an ensemble cast of iconic characters. At its core, the story revolves around the threat posed by Loki, the cunning and mischievous Asgardian god. Loki gains access to the powerful Tesseract, an otherworldly energy source with the potential for catastrophic destruction. With the Tesseract in his possession, Loki sets his sights on Earth, aiming to subjugate humanity and rule as its sovereign. To combat this impending global crisis, Nick Fury, the enigmatic director of S.H.I.E.L.D., assembles a team of extraordinary individuals, each with their own unique abilities and personalities.",
+        "duration": "2h 34min"
+    },
+    {
+        "movieImageUrl": "https://images.thedirect.com/media/photos/endgamecover1.jpg",
+        "movieName": "Example Movie 2",
+        "releaseDate": "2023-09-22",
+        "score": 3,
+        "genres": [
+            {
+                "id": "12_Action_34",
+                "value": "Action"
+            },
+            {
+                "id": "12_Adventure_34",
+                "value": "Adventure"
+            },
+            {
+                "id": "12_Science_34",
+                "value": "Science"
+            },
+            {
+                "id": "12_Comedy_34",
+                "value": "Comedy"
+            },
+            {
+                "id": "12_Drama_34",
+                "value": "Drama"
+            }
+        ],
+        "onClickEvent": "https://example.com/movie2",
+        "description": "The Avengers is a cinematic masterpiece that combines the forces of some of the most beloved Marvel superheroes in a thrilling, action-packed adventure. Directed by Joss Whedon, the film is a pivotal moment in the Marvel Cinematic Universe (MCU) and brings together an ensemble cast of iconic characters. At its core, the story revolves around the threat posed by Loki, the cunning and mischievous Asgardian god. Loki gains access to the powerful Tesseract, an otherworldly energy source with the potential for catastrophic destruction. With the Tesseract in his possession, Loki sets his sights on Earth, aiming to subjugate humanity and rule as its sovereign. To combat this impending global crisis, Nick Fury, the enigmatic director of S.H.I.E.L.D., assembles a team of extraordinary individuals, each with their own unique abilities and personalities.",
+        "duration": "2h 34min"
+    },
+    {
+        "movieImageUrl": "https://cdn.marvel.com/content/2x/aven2023001_cov_2.jpg",
+        "movieName": "Example Movie 3",
+        "releaseDate": "2023-09-23",
+        "score": 3,
+        "genres": [
+            {
+                "id": "12_Action_34",
+                "value": "Action"
+            },
+            {
+                "id": "12_Adventure_34",
+                "value": "Adventure"
+            },
+            {
+                "id": "12_Science_34",
+                "value": "Science"
+            },
+            {
+                "id": "12_Comedy_34",
+                "value": "Comedy"
+            },
+            {
+                "id": "12_Drama_34",
+                "value": "Drama"
+            }
+        ],
+        "onClickEvent": "https://example.com/movie3",
+        "description": "The Avengers is a cinematic masterpiece that combines the forces of some of the most beloved Marvel superheroes in a thrilling, action-packed adventure. Directed by Joss Whedon, the film is a pivotal moment in the Marvel Cinematic Universe (MCU) and brings together an ensemble cast of iconic characters. At its core, the story revolves around the threat posed by Loki, the cunning and mischievous Asgardian god. Loki gains access to the powerful Tesseract, an otherworldly energy source with the potential for catastrophic destruction. With the Tesseract in his possession, Loki sets his sights on Earth, aiming to subjugate humanity and rule as its sovereign. To combat this impending global crisis, Nick Fury, the enigmatic director of S.H.I.E.L.D., assembles a team of extraordinary individuals, each with their own unique abilities and personalities.",
+        "duration": "2h 34min"
+    },
+    {
+        "movieImageUrl": "https://ohsmagnet.com/wp-content/uploads/2019/04/unnamed-607x900.jpg",
+        "movieName": "Example Movie 1",
+        "releaseDate": "2023-09-21",
+        "score": 3,
+        "genres": [
+            {
+                "id": "12_Action_34",
+                "value": "Action"
+            },
+            {
+                "id": "12_Adventure_34",
+                "value": "Adventure"
+            },
+            {
+                "id": "12_Science_34",
+                "value": "Science"
+            },
+            {
+                "id": "12_Comedy_34",
+                "value": "Comedy"
+            },
+            {
+                "id": "12_Drama_34",
+                "value": "Drama"
+            }
+        ],
+        "onClickEvent": "https://example.com/movie1",
+        "description": "The Avengers is a cinematic masterpiece that combines the forces of some of the most beloved Marvel superheroes in a thrilling, action-packed adventure. Directed by Joss Whedon, the film is a pivotal moment in the Marvel Cinematic Universe (MCU) and brings together an ensemble cast of iconic characters. At its core, the story revolves around the threat posed by Loki, the cunning and mischievous Asgardian god. Loki gains access to the powerful Tesseract, an otherworldly energy source with the potential for catastrophic destruction. With the Tesseract in his possession, Loki sets his sights on Earth, aiming to subjugate humanity and rule as its sovereign. To combat this impending global crisis, Nick Fury, the enigmatic director of S.H.I.E.L.D., assembles a team of extraordinary individuals, each with their own unique abilities and personalities.",
+        "duration": "2h 34min"
+    },
+    {
+        "movieImageUrl": "https://ohsmagnet.com/wp-content/uploads/2019/04/unnamed-607x900.jpg",
+        "movieName": "Example Movie 2",
+        "releaseDate": "2023-09-22",
+        "score": 3,
+        "genres": [
+            {
+                "id": "12_Action_34",
+                "value": "Action"
+            },
+            {
+                "id": "12_Adventure_34",
+                "value": "Adventure"
+            },
+            {
+                "id": "12_Science_34",
+                "value": "Science"
+            },
+            {
+                "id": "12_Comedy_34",
+                "value": "Comedy"
+            },
+            {
+                "id": "12_Drama_34",
+                "value": "Drama"
+            }
+        ],
+        "onClickEvent": "https://example.com/movie2",
+        "description": "The Avengers is a cinematic masterpiece that combines the forces of some of the most beloved Marvel superheroes in a thrilling, action-packed adventure. Directed by Joss Whedon, the film is a pivotal moment in the Marvel Cinematic Universe (MCU) and brings together an ensemble cast of iconic characters. At its core, the story revolves around the threat posed by Loki, the cunning and mischievous Asgardian god. Loki gains access to the powerful Tesseract, an otherworldly energy source with the potential for catastrophic destruction. With the Tesseract in his possession, Loki sets his sights on Earth, aiming to subjugate humanity and rule as its sovereign. To combat this impending global crisis, Nick Fury, the enigmatic director of S.H.I.E.L.D., assembles a team of extraordinary individuals, each with their own unique abilities and personalities.",
+        "duration": "2h 34min"
+    },
+    {
+        "movieImageUrl": "https://images.thedirect.com/media/photos/endgamecover1.jpg",
+        "movieName": "Example Movie 3",
+        "releaseDate": "2023-09-23",
+        "score": 3,
+        "genres": [
+            {
+                "id": "12_Action_34",
+                "value": "Action"
+            },
+            {
+                "id": "12_Adventure_34",
+                "value": "Adventure"
+            },
+            {
+                "id": "12_Science_34",
+                "value": "Science"
+            },
+            {
+                "id": "12_Comedy_34",
+                "value": "Comedy"
+            },
+            {
+                "id": "12_Drama_34",
+                "value": "Drama"
+            }
+        ],
+        "onClickEvent": "https://example.com/movie3",
+        "description": "The Avengers is a cinematic masterpiece that combines the forces of some of the most beloved Marvel superheroes in a thrilling, action-packed adventure. Directed by Joss Whedon, the film is a pivotal moment in the Marvel Cinematic Universe (MCU) and brings together an ensemble cast of iconic characters. At its core, the story revolves around the threat posed by Loki, the cunning and mischievous Asgardian god. Loki gains access to the powerful Tesseract, an otherworldly energy source with the potential for catastrophic destruction. With the Tesseract in his possession, Loki sets his sights on Earth, aiming to subjugate humanity and rule as its sovereign. To combat this impending global crisis, Nick Fury, the enigmatic director of S.H.I.E.L.D., assembles a team of extraordinary individuals, each with their own unique abilities and personalities.",
+        "duration": "2h 34min"
+    },
+    {
+        "movieImageUrl": "https://ohsmagnet.com/wp-content/uploads/2019/04/unnamed-607x900.jpg",
+        "movieName": "Example Movie 1",
+        "releaseDate": "2023-09-21",
+        "score": 3,
+        "genres": [
+            {
+                "id": "12_Action_34",
+                "value": "Action"
+            },
+            {
+                "id": "12_Adventure_34",
+                "value": "Adventure"
+            },
+            {
+                "id": "12_Science_34",
+                "value": "Science"
+            },
+            {
+                "id": "12_Comedy_34",
+                "value": "Comedy"
+            },
+            {
+                "id": "12_Drama_34",
+                "value": "Drama"
+            }
+        ],
+        "onClickEvent": "https://example.com/movie1",
+        "description": "The Avengers is a cinematic masterpiece that combines the forces of some of the most beloved Marvel superheroes in a thrilling, action-packed adventure. Directed by Joss Whedon, the film is a pivotal moment in the Marvel Cinematic Universe (MCU) and brings together an ensemble cast of iconic characters. At its core, the story revolves around the threat posed by Loki, the cunning and mischievous Asgardian god. Loki gains access to the powerful Tesseract, an otherworldly energy source with the potential for catastrophic destruction. With the Tesseract in his possession, Loki sets his sights on Earth, aiming to subjugate humanity and rule as its sovereign. To combat this impending global crisis, Nick Fury, the enigmatic director of S.H.I.E.L.D., assembles a team of extraordinary individuals, each with their own unique abilities and personalities.",
+        "duration": "2h 34min"
+    },
+    {
+        "movieImageUrl": "https://images.thedirect.com/media/photos/endgamecover1.jpg",
+        "movieName": "Example Movie 2",
+        "releaseDate": "2023-09-22",
+        "score": 3,
+        "genres": [
+            {
+                "id": "12_Action_34",
+                "value": "Action"
+            },
+            {
+                "id": "12_Adventure_34",
+                "value": "Adventure"
+            },
+            {
+                "id": "12_Science_34",
+                "value": "Science"
+            },
+            {
+                "id": "12_Comedy_34",
+                "value": "Comedy"
+            },
+            {
+                "id": "12_Drama_34",
+                "value": "Drama"
+            }
+        ],
+        "onClickEvent": "https://example.com/movie2",
+        "description": "The Avengers is a cinematic masterpiece that combines the forces of some of the most beloved Marvel superheroes in a thrilling, action-packed adventure. Directed by Joss Whedon, the film is a pivotal moment in the Marvel Cinematic Universe (MCU) and brings together an ensemble cast of iconic characters. At its core, the story revolves around the threat posed by Loki, the cunning and mischievous Asgardian god. Loki gains access to the powerful Tesseract, an otherworldly energy source with the potential for catastrophic destruction. With the Tesseract in his possession, Loki sets his sights on Earth, aiming to subjugate humanity and rule as its sovereign. To combat this impending global crisis, Nick Fury, the enigmatic director of S.H.I.E.L.D., assembles a team of extraordinary individuals, each with their own unique abilities and personalities.",
+        "duration": "2h 34min"
+    },
+    {
+        "movieImageUrl": "https://cdn.marvel.com/content/2x/aven2023001_cov_2.jpg",
+        "movieName": "Example Movie 3",
+        "releaseDate": "2023-09-23",
+        "score": 3,
+        "genres": [
+            {
+                "id": "12_Action_34",
+                "value": "Action"
+            },
+            {
+                "id": "12_Adventure_34",
+                "value": "Adventure"
+            },
+            {
+                "id": "12_Science_34",
+                "value": "Science"
+            },
+            {
+                "id": "12_Comedy_34",
+                "value": "Comedy"
+            },
+            {
+                "id": "12_Drama_34",
+                "value": "Drama"
+            }
         ],
         "onClickEvent": "https://example.com/movie3",
         "description": "The Avengers is a cinematic masterpiece that combines the forces of some of the most beloved Marvel superheroes in a thrilling, action-packed adventure. Directed by Joss Whedon, the film is a pivotal moment in the Marvel Cinematic Universe (MCU) and brings together an ensemble cast of iconic characters. At its core, the story revolves around the threat posed by Loki, the cunning and mischievous Asgardian god. Loki gains access to the powerful Tesseract, an otherworldly energy source with the potential for catastrophic destruction. With the Tesseract in his possession, Loki sets his sights on Earth, aiming to subjugate humanity and rule as its sovereign. To combat this impending global crisis, Nick Fury, the enigmatic director of S.H.I.E.L.D., assembles a team of extraordinary individuals, each with their own unique abilities and personalities.",

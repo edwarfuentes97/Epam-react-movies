@@ -14,11 +14,13 @@ export default function MovieTile({ movieImageUrl, movieName, releaseDate, genre
             <img src={movieImageUrl} alt={movieName} className="mt-image" />
             <div className="mt-name">{movieName}</div>
             <div className="mt-release-data">{releaseDate}</div>
-            <div className="mt-gender"> {genres && (
-                genres.map((genreItem, index) => {
-                    return (<span key={index+genreItem}>  {genreItem} - </span>)
-                })
-            )}
+            <div className="mt-genres-container">
+                {<div className="mt-gender"> {genres &&
+                    (
+                        genres.map((genreItem, index) =>
+                            (<span key={genreItem.id}>  {genreItem.value} - </span>))
+                    )}
+                </div>}
             </div>
 
         </div>
