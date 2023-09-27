@@ -1,0 +1,52 @@
+.mt-card {
+    width: 25%;
+    height: 35em;
+}
+
+.mt-image {
+    background: white;
+    width: 100%;
+    height: 80%;
+}
+
+.mt-name {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 59%;
+    float: left;
+    padding: 5% 0;
+}
+
+.mt-release-data {
+    width: 40%;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    float: right;
+    margin: 3% 0;
+    border: 1px solid gray;
+    border-radius: 2em;
+    padding: 2% 0;
+}
+
+.mt-gender {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.5;
+}
+
+.mt-genres-container {
+    display: inline-table;
+}

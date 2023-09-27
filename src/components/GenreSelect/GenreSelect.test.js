@@ -22,7 +22,7 @@ describe('GenreSelect Component', () => {
     );
 
     const selectedGenreElement = getByText(currentGenre);
-    expect(selectedGenreElement).toHaveClass('genre-item-selected');
+    expect(selectedGenreElement).toHaveClass('gs-genre-item-selected');
   });
 
   it('calls the onChange callback with the correct genre when a genre is clicked', () => {
