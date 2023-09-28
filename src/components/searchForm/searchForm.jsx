@@ -4,12 +4,9 @@ import './searchForm.css'
 import { useState } from "react";
 
 
-const handleClickAddMovie = () => {
-  console.log('click')
-}
+export const SearchForm = ({ initialValue, onSearch, onAddMovie }) => {
 
 
-export const SearchForm = ({ initialValue, onSearch }) => {
   const [inputValue, setInputValue] = useState(initialValue);
 
   const handleInputChange = (e) => {
@@ -26,6 +23,10 @@ export const SearchForm = ({ initialValue, onSearch }) => {
     onSearch(inputValue);
   };
 
+  const handleClickAddMovie = (movie, action) => {
+    onAddMovie(movie, action)
+  }
+
   return (
     <div className="sf-container">
       <div className="sf-search-container">
@@ -33,7 +34,7 @@ export const SearchForm = ({ initialValue, onSearch }) => {
           onChange={handleInputChange} onKeyPress={handleKeyPress} />
         <button className="sf-search-button" onClick={handleSearch}>SEARCH</button>
       </div>
-      <button className="sf-add-button" onClick={() => handleClickAddMovie()}>+ ADD MOVIE</button>
+      <button className="sf-add-button" onClick={() => handleClickAddMovie(null, false)}>+ ADD MOVIE</button>
     </div>
   );
 };
