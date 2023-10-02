@@ -5,7 +5,6 @@ import './Dialog.css'
 export default function Dialog({ children, modalTitle, onClickClose }) {
 
     const handleClickAddMovie = (movie, action) => {
-        console.log('llaa 1');
         onClickClose(movie, action);
     }
 
@@ -14,7 +13,7 @@ export default function Dialog({ children, modalTitle, onClickClose }) {
             <div className="modal-content">
                 <span className="close-btn"
                     onClick={() => handleClickAddMovie(null, false)}>&times;</span>
-                <h2>{modalTitle}</h2>
+                {/* <h2>{modalTitle}</h2> */}
                 {children}
             </div>
         </div>

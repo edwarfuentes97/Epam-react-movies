@@ -7,7 +7,7 @@ import MovieDetail from './components/MovieDetail/MovieDetail';
 import Dialog from './components/Dialog/Dialog';
 import { Portal } from 'react-portal';
 import { useState } from "react";
-import MovieForm from './components/Dialog/Dialog';
+import MovieForm from './components/MovieForm/MovieForm';
 
 /* 
 import Counter from './components/counter/counter';
@@ -25,21 +25,22 @@ const genres = [
 
 
 function App() {
-  const [isModalOpen, setIsModalOpen] = useState(true);
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const [isDetailShowActive, setIsDetailShowActive] = useState(false);
+  const [currentMovie, setCurrentMovie] = useState();
+
 
   const addMovie = () => {
-    console.log('add movie');
     setIsModalOpen(true)
   }
 
   const handleModal = (movie, action) => {
-    console.log('handle Modal');
+    console.log('handle Modal',);
     if (movie) {
-      console.log(movie);
-      setIsModalOpen(action)
+      setCurrentMovie(movie);
+      setIsModalOpen(action);
     } else {
-      // closing
+      setCurrentMovie()
       setIsModalOpen(action);
     }
 
@@ -66,8 +67,11 @@ function App() {
         {isModalOpen &&
           <Dialog
             onClickClose={handleModal}
-            modalTitle={'Creando'}
-            children={<MovieForm></MovieForm>}
+            children={
+              <MovieForm
+                movie={currentMovie}>
+              </MovieForm>
+            }
           >
           </Dialog>
         }
