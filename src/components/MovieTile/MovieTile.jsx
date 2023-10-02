@@ -2,10 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './MovieTile.css'
 
-export default function MovieTile({ movieImageUrl, movieName, releaseDate, genres, onclickEvent }) {
+export default function MovieTile({ movieImageUrl, movieName, releaseDate, genres, onMovieEdit }) {
 
-    const handleGenreClick = (movie) => {
-        onclickEvent(movie)
+    const handleGenreClick = () => {
+        onMovieEdit({ movieImageUrl, movieName, releaseDate, genres }, true)
     };
 
     return (

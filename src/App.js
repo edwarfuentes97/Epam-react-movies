@@ -1,24 +1,20 @@
 import './App.css';
 import Movies from "./assets/movies.json";
-/* import Counter from './components/counter/counter';
-import Button from './components/Button';
- */
 import { SearchForm } from './components/searchForm/searchForm';
 import { GenreSelect } from './components/GenreSelect/GenreSelect';
 import MovieTile from './components/MovieTile/MovieTile';
 import MovieDetail from './components/MovieDetail/MovieDetail';
+import Dialog from './components/Dialog/Dialog';
+import { Portal } from 'react-portal';
+import { useState } from "react";
+import MovieForm from './components/MovieForm/MovieForm';
 
+/* 
+import Counter from './components/counter/counter';
+import Button from './components/Button';
+*/
 
 const movies = Movies;
-
-const handleButtonClick = () => {
-  alert(`Click button call`);
-};
-
-const onSelectedGenre = (genre) => {
-  alert(`Se cambio el genero a ${genre}`)
-}
-
 const genres = [
   { id: '12_Action_34', value: 'Action' },
   { id: '12_Adventure_34', value: 'Adventure' },
@@ -28,9 +24,36 @@ const genres = [
 ]
 
 
-
 function App() {
-  const isDetailShowActive = true;
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isDetailShowActive, setIsDetailShowActive] = useState(false);
+  const [currentMovie, setCurrentMovie] = useState();
+
+
+  const addMovie = () => {
+    setIsModalOpen(true)
+  }
+
+  const handleModal = (movie, action) => {
+    console.log('handle Modal',);
+    if (movie) {
+      setCurrentMovie(movie);
+      setIsModalOpen(action);
+    } else {
+      setCurrentMovie()
+      setIsModalOpen(action);
+    }
+
+  }
+
+  const onSelectedGenre = (genre) => {
+    alert(`Se cambio el genero a ${genre}`)
+  }
+
+  const fnOnSearchMovie = (searchText) => {
+    alert(`buscando pelicula ${searchText}`)
+  }
+
 
   return (
     <>
@@ -40,13 +63,27 @@ function App() {
         <Counter initialValue={10}></Counter>
       */}
 
+      <Portal>
+        {isModalOpen &&
+          <Dialog
+            onClickClose={handleModal}
+            children={
+              <MovieForm
+                movie={currentMovie}>
+              </MovieForm>
+            }
+          >
+          </Dialog>
+        }
+
+      </Portal>
 
       <div className='app-container'>
         {
           !isDetailShowActive ?
-
             <SearchForm
-              onSearch={handleButtonClick}
+              onSearch={fnOnSearchMovie}
+              onAddMovie={addMovie}
               initialValue={'InterStellar'}
             />
             :
@@ -75,14 +112,14 @@ function App() {
                   movieName={movie.movieName}
                   releaseDate={movie.releaseDate}
                   genres={movie.genres}
-                  onclickEvent={handleButtonClick}
+                  onMovieEdit={handleModal}
                   key={index}
                 />
               )
             })
           }
         </div>
-      </div >
+      </div>
     </>
   );
 }
